@@ -7,7 +7,7 @@ import { ISearchFilter } from "../common/sp/ISearchFilter";
 import { sp, SortDirection } from '@pnp/sp';
 
 const Default = {
-    ContentTypes:['TogoNews','TogoAnnouncement','TogoDocument'],
+    ContentTypes:['News','Announcement','Document'],
     Sort:[{Property:'LastModifiedTime',Direction:SortDirection.Ascending}]
 }
 
